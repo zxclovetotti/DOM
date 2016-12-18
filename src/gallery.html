@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/layout.css" media="screen">
+    <title>Image Gallery</title>
+</head>
+<!-- body onload = countBodyChildren()-->
+<body>
+    <h1>Snapshots</h1>
+    <ul id="imagegallery">
+        <li>
+            <a href="images/fireworks.JPG" title="A fireworks display">
+                <img src="images/thumbnail_fireworks.JPG" alt="Fireworks"/>
+            </a>
+            <!--onclick="showPic(this);return false;"-->
+        </li>
+        <li>
+            <a href="images/coffee.JPG" title="A cup of black coffee">
+                <img src="images/thumbnail_coffee.JPG" alt="Coffee"/>
+            </a>
+        </li>
+        <li>
+            <a href="images/rose.JPG" title="A red, red rose">
+                <img src="images/thumbnail_roseJPG.JPG" alt="Rose"/>
+            </a>
+        </li>
+        <li>
+            <a href="images/bigben.JPG" title="The famous clock">
+                <img src="images/thumbnail_bigben.JPG" alt="Big Ben"/>
+            </a>
+        </li>
+    </ul>
+    <!--img id="placeholder" src="images/coffee.JPG" alt="my image gallery" /-->
+    <!--p id="description">Choose an image.</p-->
+    <script type="text/javascript" src="js/showPic.js"></script>
+</body>
+</html>
