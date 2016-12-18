@@ -9,7 +9,7 @@ function styleHeaderSiblings() {
     var elem;
 
     for (var i = 0; i < headers.length; i++){
-        elem = getNextElement(headers.nextSibling);
+        elem = getNextElement(headers[i].nextSibling);
         elem.style.fontWeight = "bold";
         elem.style.fontSize = "1.5em";
     }
