@@ -29,3 +29,16 @@ th, td {
     width: 10em;
     padding: .5em;
 }
+
+/*
+for displaying abbr
+ */
+abbr {
+    text-decoration: none;
+    border: 0;
+    font-style: normal;
+    /*
+    Add this for Chrome and Safari
+    */
+    border-bottom: 1px dotted black;
+}
