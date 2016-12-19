@@ -2,8 +2,8 @@
  * Created by Leo on 16/11/14.
  */
 function displayAbbreviations() {
-	if (!document.getElementsByTagName || !document.createElement 
-		|| !document.createTextNode) return false
+	if (!document.getElementsByTagName || !document.createElement
+		|| !document.createTextNode) return false;
 
     var abbreviations = document.getElementsByTagName("abbr");
 
@@ -46,7 +46,7 @@ function displayAbbreviations() {
 		dlist.appendChild(ddesc)
 	}
 
-	// Add this for IE6 
+	// Add this for IE6
 	if (dlist.childNodes.length < 1) return false;
 
 	var header = document.createElement("h2");
