@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8986ce68-b9dc-48e8-bcda-7f43f3a39425" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/format.css" afterPath="$PROJECT_DIR$/src/css/format.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/itinerary.html" afterPath="$PROJECT_DIR$/src/itinerary.html" />
     </list>
     <ignored path="DOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="itinerary.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="itinerary.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/itinerary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="15">
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/format.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="displayAbbreviations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/displayAbbreviations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -68,16 +90,16 @@
         <option value="$PROJECT_DIR$/src/ajax.html" />
         <option value="$PROJECT_DIR$/src/content.html" />
         <option value="$PROJECT_DIR$/src/css/typography.css" />
-        <option value="$PROJECT_DIR$/src/js/displayAbbreviations.js" />
         <option value="$PROJECT_DIR$/src/js/displayCitations.js" />
         <option value="$PROJECT_DIR$/src/explanation.html" />
         <option value="$PROJECT_DIR$/src/js/displayAccesskeys.js" />
         <option value="$PROJECT_DIR$/src/css/styles.css" />
         <option value="$PROJECT_DIR$/src/example.html" />
         <option value="$PROJECT_DIR$/src/js/styleHeaderSiblings.js" />
-        <option value="$PROJECT_DIR$/src/css/format.css" />
         <option value="$PROJECT_DIR$/src/js/stripeTables.js" />
         <option value="$PROJECT_DIR$/src/itinerary.html" />
+        <option value="$PROJECT_DIR$/src/js/displayAbbreviations.js" />
+        <option value="$PROJECT_DIR$/src/css/format.css" />
       </list>
     </option>
   </component>
@@ -301,7 +323,7 @@
       <workItem from="1481633903441" duration="146000" />
       <workItem from="1481634382248" duration="183000" />
       <workItem from="1481807676579" duration="697000" />
-      <workItem from="1481809619682" duration="7635000" />
+      <workItem from="1481809619682" duration="8400000" />
     </task>
     <task id="LOCAL-00001" summary="fix missing headers[i].nextSibling">
       <created>1482065687159</created>
@@ -373,11 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482157427146</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix error message">
+      <created>1482157887093</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1482157887093</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44720000" />
+    <option name="totallyTimeSpent" value="45485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="0" />
@@ -443,7 +472,8 @@
     <MESSAGE value="add CSS3 to alternate the background color for table rows" />
     <MESSAGE value="new" />
     <MESSAGE value="add stripeTables.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add stripeTables.js" />
+    <MESSAGE value="fix error message" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix error message" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,14 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/displayAbbreviations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="38" column="50" lean-forward="false" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -795,18 +817,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/format.css">
+    <entry file="file://$PROJECT_DIR$/src/js/displayAbbreviations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="26" lean-forward="false" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="241">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/itinerary.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/format.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>

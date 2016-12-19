@@ -60,3 +60,9 @@ tr:nth-child(even) {
     background-color: #fff;
 }
 */
+
+h2, dl, dt, dd {
+
+    color: grey;
+    font-size: 0.8em;
+}
