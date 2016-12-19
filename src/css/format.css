@@ -42,3 +42,21 @@ abbr {
     */
     border-bottom: 1px dotted black;
 }
+
+/*
+  if browsers support CSS3
+  To get this same effect when :nth-child() isn't available, you'll need a different technique. In the
+case of itinerary.html, this could be easily done by assigning a class attribute to each odd or even row.
+However, this isn’t very convenient, especially for larger tables—if a row is added to or removed from the
+middle of the table, you would have to painstakingly update the class attributes by hand.
+ */
+
+/*
+tr:nth-child(odd) {
+    background-color: #ffc;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+*/
