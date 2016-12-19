@@ -5,10 +5,14 @@ function styleHeaderSiblings() {
 
     if (!document.getElementsByTagName("h1")) return false;
 
+    // get all the h1 elements using getElementsByTagName
     var headers = document.getElementsByTagName("h1");
     var elem;
 
+    // loop through all the elements in the node set
     for (var i = 0; i < headers.length; i++){
+
+        // find the next node in the document using nextSibling
         elem = getNextElement(headers[i].nextSibling);
         elem.style.fontWeight = "bold";
         elem.style.fontSize = "1.5em";
@@ -22,6 +26,7 @@ function getNextElement(node) {
      • Attribute nodes have a nodeType value of 2.
      • Text nodes have a nodeType value of 3.
      */
+    // only the next element node will be found
     if(node.nodeType == 1) {
         return node;
     }
