@@ -13,6 +13,7 @@ function stripeTables() {
         for (var j = 0; j < rows.length; j++) {
             if (odd == true){
                 rows[j].style.backgroundColor = "#ffc";
+                //addClass(rows[j],"odd");
                 odd = false;
             } else {
                 odd = true;

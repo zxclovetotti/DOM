@@ -13,9 +13,30 @@ function styleHeaderSiblings() {
     for (var i = 0; i < headers.length; i++){
 
         // find the next node in the document using nextSibling
+
+        /*
+         There’s just one drawback to this technique. If you assign a class using the className property, you
+         will overwrite any classes that are already attached to that element:
+
+         <h1>Man bites dog</h1>
+         <p class="disclaimer">This is not a true story</p>
+
+         If you run the styleHeaderSiblings function on a document containing that piece of markup, the
+         class attribute of the paragraph will be changed from disclaimer to intro. What you really want to do is
+         update the class attribute so that it reads disclaimer intro. That way the styles for the disclaimer and
+         intro classes will both be applied.
+
+         You can do this by concatenating a space and the name of the new class to the className property:
+        */
+
         elem = getNextElement(headers[i].nextSibling);
+        //elem.className += "intro";
+        addClass(elem,"intro");
+
+        /*
         elem.style.fontWeight = "bold";
         elem.style.fontSize = "1.5em";
+        */
     }
 
 }
