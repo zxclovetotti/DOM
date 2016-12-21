@@ -1,12 +1,12 @@
 /**
  * Created by Leo on 16/12/18.
  */
-function styleHeaderSiblings() {
+function styleHeaderSiblings(tag, theclass) {
 
-    if (!document.getElementsByTagName("h1")) return false;
+    if (!document.getElementsByTagName) return false;
 
     // get all the h1 elements using getElementsByTagName
-    var headers = document.getElementsByTagName("h1");
+    var headers = document.getElementsByTagName(tag);
     var elem;
 
     // loop through all the elements in the node set
@@ -31,7 +31,7 @@ function styleHeaderSiblings() {
 
         elem = getNextElement(headers[i].nextSibling);
         //elem.className += "intro";
-        addClass(elem,"intro");
+        addClass(elem,theclass);
 
         /*
         elem.style.fontWeight = "bold";
@@ -68,4 +68,6 @@ function getNextElement(node) {
     return null;
 }
 
-addLoadEvent(styleHeaderSiblings);
+addLoadEvent(function(){
+    styleHeaderSiblings("h1", "intro")
+});
