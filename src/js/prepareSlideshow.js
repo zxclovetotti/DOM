@@ -8,13 +8,26 @@ function prepareSlideshow(){
 
     // Make sure the elements exist
     if (!document.getElementById("linklist")) return false;
-    if (!document.getElementById("preview")) return false;
 
-    // Apply styples to the preview image
-    var preview = document.getElementById("preview");
-    preview.style.position = "absolute";
-    preview.style.left = "0px";
-    preview.style.top = "0px";
+    /*
+     if (!document.getElementById("preview")) return false;
+     // Apply styples to the preview image
+     var preview = document.getElementById("preview");
+     preview.style.position = "absolute";
+     //preview.style.left = "0px";
+     //preview.style.top = "0px";
+     */
+
+    //using DOM to create preview div and its content
+    var slideshow = document.createElement("div");
+    slideshow.setAttribute("id","slideshow");
+    var preview = document.createElement("img");
+    preview.setAttribute("src","images/topics.gif");
+    preview.setAttribute("alt","building blocks of web design");
+    preview.setAttribute("id","preview");
+    slideshow.appendChild(preview);
+    insertAfter(slideshow,linklist);
+
 
     // Get all the links in the left
     var list = document.getElementById("linklist");
