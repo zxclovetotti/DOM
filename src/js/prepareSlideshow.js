@@ -12,7 +12,7 @@ function prepareSlideshow(){
 
     // Apply styples to the preview image
     var preview = document.getElementById("preview");
-    preview.style.position = "abosolute";
+    preview.style.position = "absolute";
     preview.style.left = "0px";
     preview.style.top = "0px";
 
