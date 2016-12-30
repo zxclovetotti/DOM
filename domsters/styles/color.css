@@ -56,6 +56,20 @@ header nav a.here:active {
     color:#eef;
     background-color: #799;
 }
+
+#about header {
+    background-image: url(../images/lineup.gif);
+}
+#photos header {
+    background-image: url(../images/basshead.gif);
+}
+#live header {
+    background-image: url(../images/bassist.gif);
+}
+#contact header {
+    background-image: url(../images/drummer.gif);
+}
+
 article img {
     border-color: #ba9;
     outline-color: #dcb;
