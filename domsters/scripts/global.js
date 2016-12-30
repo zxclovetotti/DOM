@@ -254,18 +254,14 @@ function preparePlaceholder() {
     if (!document.createTextNode) return false;
     if (!document.getElementById) return false;
     if (!document.getElementById("imagegallery")) return false;
-
     var placeholder = document.createElement("img");
     placeholder.setAttribute("id","placeholder");
-    placeholder.setAttribute("src","images/coffee.JPG");
+    placeholder.setAttribute("src","images/placeholder.gif");
     placeholder.setAttribute("alt","my image gallery");
-
     var description = document.createElement("p");
     description.setAttribute("id","description");
-
-    var desctxt = document.createTextNode("Choose an image");
-    description.appendChild(desctxt);
-
+    var desctext = document.createTextNode("Choose an image");
+    description.appendChild(desctext);
     var gallery = document.getElementById("imagegallery");
     insertAfter(description,gallery);
     insertAfter(placeholder,description);
