@@ -134,6 +134,13 @@ function prepareSlideshow(){
     var intro = document.getElementById("intro");
     var slideshow = document.createElement("div");
     slideshow.setAttribute("id","slideshow");
+
+    var frame = document.createElement("img");
+    frame.setAttribute("src","images/frame.gif");
+    frame.setAttribute("alt","");
+    frame.setAttribute("id","frame");
+    slideshow.appendChild(frame);
+
     var preview = document.createElement("img");
     preview.setAttribute("src","images/slideshow.gif");
     preview.setAttribute("alt","a glimpse of what awaits you");
@@ -141,10 +148,11 @@ function prepareSlideshow(){
     slideshow.appendChild(preview);
     insertAfter(slideshow,intro);
 
+
     var links = intro.getElementsByTagName("a");
     var destination;
     for (var i = 0; i < links.length; i++){
-        links[i].onmouseover = function () {
+        links[i].onmouseover = function() {
             destination = this.getAttribute("href");
             if (destination.indexOf("index.html") != -1){
                 moveElement("preview",0,0,5);
