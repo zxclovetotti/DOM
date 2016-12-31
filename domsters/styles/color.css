@@ -78,6 +78,10 @@ article img {
     background-color: transparent;
 }
 
+input.placeholder {
+    color:grey;
+}
+
 th {
     color:#edc;
     background-color: #455;
