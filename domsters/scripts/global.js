@@ -356,6 +356,52 @@ function displayAbbreviations() {
     container.appendChild(dlist);
 }
 
+//
+function focusLabels(){
+    if (!document.getElementsByTagName) return false;
+    var labels = document.getElementsByTagName("label");
+    for (var i = 0; i < labels.length; i++) {
+        if (!labels[i].getAttribute("for")) continue;
+        labels[i].onclick = function () {
+            var id = this.getAttribute("for");
+            if (!document.getElementById(id)) return false;
+            var element = document.getElementById(id);
+            element.focus();
+        }
+    }
+}
+
+
+function resetFields(whichform){
+    if (Modernizr.input.placeholder) return;
+    for (var i = 0; i < whichform.elements.length; i++){
+        var element = whichform.elements[i];
+        if (element.type = "submit") continue;
+        var check = element.placeholder || this.getAttribute('placeholder');
+        if (!check) continue;
+        element.onfocus = function () {
+            var text = this.placeholder || this.getAttribute('placeholder');
+            if (this.value == text){
+                this.className = '';
+                this.value = "";
+            }
+        }
+    }
+    element.onblur = function () {
+        if (this.value = "") {
+            this.className = 'placeholder';
+            this.value = this.placeholder || this.getAttribute('placeholder');
+        }
+    }
+    element.onblur()
+}
+
+function prepareForms() {
+    for (var i = 0; i < document.forms.length; i++){
+        var thisform = document.forms[i];
+        resetFields(thisform);
+    }
+}
 
 // Load events
 addLoadEvent(highlightPage);
@@ -366,3 +412,5 @@ addLoadEvent(prepareGallery);
 addLoadEvent(stripeTables);
 addLoadEvent(highlightRows);
 addLoadEvent(displayAbbreviations);
+addLoadEvent(focusLabels);
+addLoadEvent(prepareForms);
