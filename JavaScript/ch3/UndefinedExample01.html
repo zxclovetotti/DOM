@@ -11,10 +11,25 @@
         //alert(typeof message);
         //alert(message)
 
-        var car = null;
-        alert(typeof car);
+        var messageAsBoolen = Boolean(message);
 
-        alert(null == undefined) // undefined derives from null
+        //alert(messageAsBoolen);
+
+        var car = null;
+        //alert(typeof car);
+
+        //alert(null == undefined) // undefined derives from null
+
+        var num1 = parseInt("1234blue");
+        alert(num1); // 1234
+
+        var num4;
+        alert(String(num4));  //undefined
+
+        var object = new Object(); // () is not necessary but is recommended
+
+        var num = -18;
+        alert(num.toString(2));
     </script>
 </body>
 </html>
