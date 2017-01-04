@@ -20,16 +20,36 @@
 
         //alert(null == undefined) // undefined derives from null
 
-        var num1 = parseInt("1234blue");
-        alert(num1); // 1234
+        //var num1 = parseInt("1234blue");
+        //alert(num1); // 1234
 
-        var num4;
-        alert(String(num4));  //undefined
+        //var num4;
+        //alert(String(num4));  //undefined
 
-        var object = new Object(); // () is not necessary but is recommended
+        //var object = new Object(); // () is not necessary but is recommended
 
-        var num = -18;
-        alert(num.toString(2));
+        //var num = -18;
+        //alert(num.toString(2)); // "-10010"
+
+        /*
+        var num1 = 25;      // 11001
+        var num2 = ~num1;
+        alert(num2);    // -26
+
+        alert(!false); // true
+        alert(!"blue"); // false
+        */
+
+        var num1 = 5;
+        var num2 = 10;
+        /*
+        var message = "The sum of 5 and 10 is " + num1 + num2;
+        alert(message); // "The sum of 5 and 10 is 510"
+        */
+
+        var message = "The sum of 5 and 10 is " + (num1 + num2);
+        alert(message);
+
     </script>
 </body>
 </html>
