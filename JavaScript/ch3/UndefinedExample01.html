@@ -102,6 +102,7 @@
         }
         alert(num);
         */
+        /*
         switch ("Hello World"){
             case "Hello" + " World":
                 alert("Greeting was found.");
@@ -112,6 +113,27 @@
             default:
                 alert("Unexpected message was found.");
         }
+        */
+
+        // FunctionExample02.htm
+        /*
+
+        function sum(num1, num2) {
+            return num1 + num2;
+            alert("Hello World"); // Will never be run
+        }
+        var result = sum(5, 10);
+        var resultMessage = "The result is " + result;
+        alert(resultMessage);
+         */
+
+        // FunctionExample05.htm
+        function sayHi(){
+            alert("How many arguments has been transited into this function: " + arguments.length + " argument(s).");
+            alert("Hello " + arguments[0] + "." + arguments[1]);
+        }
+        sayHi("Leo","Hello World");
+
     </script>
 </body>
 </html>
