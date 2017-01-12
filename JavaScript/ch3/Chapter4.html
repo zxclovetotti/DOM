@@ -14,10 +14,31 @@
         */
 
         //Picture 4.2
+        /*
         var obj1 = new Object();
         var obj2 = obj1;
         obj1.name = "Nicholas";
         alert(obj2.name);
+        */
+
+        //FunctionArgumentsExample02
+        function setName(obj) {
+            obj.name = "Nicholas";
+
+            /*
+             If person were passed by reference, then person would automatically be changed to point to the object
+             whose name is “Greg”. However, when person.name is accessed again, its value is “Nicholas”, indicating
+             that the original reference remained intact even though the argument’s value changed inside the function.
+             When obj is overwritten inside the function, it becomes a pointer to a local object.
+             That local object is destroyed as soon as the function finishes executing.
+             */
+            obj = new Object();
+            obj.name = "Greg";
+        }
+
+        var person = new Object();
+        setName(person);
+        alert(person.name); // "Nicholas"
     </script>
 
 </body>
