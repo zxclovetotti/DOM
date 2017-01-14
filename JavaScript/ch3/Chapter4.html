@@ -22,9 +22,10 @@
         */
 
         //FunctionArgumentsExample02
+        /*
         function setName(obj) {
             obj.name = "Nicholas";
-
+        */
             /*
              If person were passed by reference, then person would automatically be changed to point to the object
              whose name is “Greg”. However, when person.name is accessed again, its value is “Nicholas”, indicating
@@ -32,6 +33,7 @@
              When obj is overwritten inside the function, it becomes a pointer to a local object.
              That local object is destroyed as soon as the function finishes executing.
              */
+        /*
             obj = new Object();
             obj.name = "Greg";
         }
@@ -39,6 +41,21 @@
         var person = new Object();
         setName(person);
         alert(person.name); // "Nicholas"
+        */
+
+        // ExecutionContextExample01
+        var color = "blue";
+        function changeColor(){
+            if (color === "blue"){
+                color = "red";
+            } else {
+                color = "blue";
+            }
+        }
+
+        changeColor()
+        alert("Color is now " + color);
+
     </script>
 
 </body>
