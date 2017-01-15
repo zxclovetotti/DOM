@@ -41,6 +41,8 @@
         });
         */
 
+        //Example 5.2.1
+        /*
         var colors = ["red", "blue", "green"];
         var name = [];
         console.log(colors.length);
@@ -60,7 +62,27 @@
         if (Array.isArray(colors)){
             alert(colors);
         }
+        */
 
+        //Example 5.2.3 Stack Methods & 5.2.4 Queue Methods
+        //ArrayTypeExample10
+        var colors = new Array();
+        var count = colors.push("red", "green");
+        console.log(count);
+
+        count = colors.push("black");
+        console.log(count);
+
+        var item = colors.pop();
+        console.log(item);
+        console.log(colors.length);
+
+        count = colors.push("brown");
+        colors[colors.length] = "pink";
+        console.log(colors.length);
+        if (Array.isArray(colors)){
+            alert(colors);
+        }
 
     </script>
 </body>
