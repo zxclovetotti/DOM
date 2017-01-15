@@ -20,7 +20,7 @@
         */
 
         /*
-        function displaInfo(args) {
+        function displayInfo(args) {
             var output = "";
             if (typeof args.name == "string"){
                 output += "Name: " + args.name + "\n";
@@ -31,12 +31,12 @@
             alert(output);
         }
 
-        displaInfo({
+        displayInfo({
             name: "Nicholas",
             age: 29
         });
 
-        displaInfo({
+        displayInfo({
             name: "Greg"
         });
         */
@@ -66,7 +66,8 @@
 
         //Example 5.2.3 Stack Methods & 5.2.4 Queue Methods
         //ArrayTypeExample10
-        var colors = new Array();
+        /*
+        var colors = [];
         var count = colors.push("red", "green");
         console.log(count);
 
@@ -79,6 +80,25 @@
 
         count = colors.push("brown");
         colors[colors.length] = "pink";
+        console.log(colors.length);
+        if (Array.isArray(colors)){
+            alert(colors);
+        }
+        */
+
+        //ArrayTypeExample11
+        var colors = [];
+        var count = colors.push("red", "green");
+        console.log(count);//2
+
+        count = colors.push("black");
+        console.log(count);
+        if (Array.isArray(colors)){
+            alert(colors);
+        }
+
+        var item = colors.shift();
+        console.log(item);
         console.log(colors.length);
         if (Array.isArray(colors)){
             alert(colors);
