@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter5</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //ObjectTypeExample02.htm
+        /*
+        var person = new Object();
+        person.name = "Nicholas";
+        person.age = 29;
+
+        var person = {
+            name: "Nicholas",
+            age: 29
+        }
+        alert(person.name + " " + person.age);
+        */
+        function displaInfo(args) {
+            var output = "";
+            if (typeof args.name == "string"){
+                output += "Name: " + args.name + "\n";
+            }
+            if (typeof args.age == "number"){
+                output += "Age: " + args.age + "\n";
+            }
+            alert(output);
+        }
+
+        displaInfo({
+            name: "Nicholas",
+            age: 29
+        });
+
+        displaInfo({
+            name: "Greg"
+        });
+
+    </script>
+</body>
+</html>
