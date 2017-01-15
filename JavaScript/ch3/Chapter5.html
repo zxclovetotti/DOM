@@ -18,6 +18,8 @@
         }
         alert(person.name + " " + person.age);
         */
+
+        /*
         function displaInfo(args) {
             var output = "";
             if (typeof args.name == "string"){
@@ -37,6 +39,28 @@
         displaInfo({
             name: "Greg"
         });
+        */
+
+        var colors = ["red", "blue", "green"];
+        var name = [];
+        console.log(colors.length);
+        console.log(name.length);
+
+        colors.length = 2;
+        console.log(colors[2]);
+
+        colors.length = 4;
+        console.log(colors[3]);
+
+        colors[colors.length] = "black";
+        colors[colors.length] = "brown";
+
+        console.log(colors);
+
+        if (Array.isArray(colors)){
+            alert(colors);
+        }
+
 
     </script>
 </body>
