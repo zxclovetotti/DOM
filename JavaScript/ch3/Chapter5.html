@@ -87,6 +87,7 @@
         */
 
         //ArrayTypeExample11
+        /*
         var colors = [];
         var count = colors.push("red", "green");
         console.log(count);//2
@@ -103,6 +104,26 @@
         if (Array.isArray(colors)){
             alert(colors);
         }
+        */
+        //ArrayTypeExample13
+        var values = [1, 2, 3, 4, 5];
+        values.reverse(); // values has been reversed.
+        console.log("values has been reversed.\n");
+        console.log(values);
+
+        var values2 = [0, 1, 5, 10, 15];
+        values2.sort(function  compare(value1, value2) {
+                if (value1 < value2) {
+                    return -1;
+                } else if (value1 > value2){
+                    return 1;
+                } else {
+                    return 0;
+                }
+            }
+        );
+        console.log("values has been sorted.\n");
+        console.log(values2);
 
     </script>
 </body>
