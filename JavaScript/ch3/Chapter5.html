@@ -179,8 +179,21 @@
         alert(sum);
         */
 
+        /*
         var someDate = new Date("May 25, 2004");
         alert(someDate);
+        */
+
+        var sum = 0;
+        var start = Date.now();
+        for (var i = 0; i < 1000000; i++){
+            sum += i;
+        }
+
+        var stop = Date.now();
+        var result = stop - start;
+        console.log(sum);
+        console.log(result);
 
     </script>
 </body>
