@@ -333,7 +333,7 @@
         var result2 = callSomeFunction(getGreeting, "Nicholas");
         alert(result2);
         */
-
+        /*
         function factorial(num){
             if (num <= 1){
                 return num;
@@ -344,7 +344,20 @@
         var trueFactorial = factorial;
 
         console.log(trueFactorial(5));
+        */
 
+        //FucntionTypeThisExample01.htm
+        window.color = "red";
+        var o = { color:"blue"};
+
+        function sayColor() {
+            alert(this.color);
+        }
+
+        sayColor();
+
+        o.sayColor = sayColor;
+        o.sayColor();
     </script>
 </body>
 </html>
