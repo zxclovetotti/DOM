@@ -179,7 +179,7 @@
         alert(sum);
         */
 
-
+        /*
         var someDate = new Date("May 25, 2004");
         alert(someDate);
 
@@ -199,6 +199,23 @@
         console.log(stop);
         console.log(sum);
         console.log(result);
+        */
+
+        //RegExpr
+        var pattern1 = /[bc]at/i;
+        var pattern2 = new RegExp("[bc]at", "i");
+
+        var re =null,
+            i;
+        for (i = 0; i < 10; i++){
+            re = /cat/g;
+            console.log(re.test("catastrophe"));
+        }
+
+        for (i = 0; i < 10; i++){
+            re = new RegExp("cat", "g");
+            console.log(re.test("catastrophe"));
+        }
 
     </script>
 </body>
