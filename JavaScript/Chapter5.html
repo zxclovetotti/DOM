@@ -245,6 +245,7 @@
         */
 
         //RegExpExecExample02.htm
+        /*
         var text = "cat, bat, sat, fat";
         var pattern1 = /.at/;
 
@@ -269,6 +270,33 @@
         console.log(matches.index);
         console.log(matches[0]);
         console.log(pattern2.lastIndex);
+        */
+
+        /*
+        var text = "000-00-0000";
+        var pattern = /\d{3}-\d{2}-\d{4}/;
+
+        if (pattern.test(text)){
+            console.log("The pattern was matched");
+        } else {
+            console.log("The pattern wasn't matched");
+        }
+
+        console.log(pattern.valueOf());
+        console.log(pattern.toLocaleString());
+        console.log(pattern.toString());
+        */
+
+        var text = "this has been a short summer";
+        var pattern = /(.)hort/g;
+
+        if (pattern.test(text)){
+            console.log(RegExp.input);
+            console.log(RegExp.leftContext);
+            console.log(RegExp.rightContext);
+            console.log(RegExp.lastMatch);
+            console.log(RegExp.lastParen);
+        }
 
     </script>
 </body>
