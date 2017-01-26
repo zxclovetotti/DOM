@@ -287,6 +287,7 @@
         console.log(pattern.toString());
         */
 
+        /*
         var text = "this has been a short summer";
         var pattern = /(.)hort/g;
 
@@ -297,6 +298,39 @@
             console.log(RegExp.lastMatch);
             console.log(RegExp.lastParen);
         }
+        */
+        /*
+        alert(sum(10,10));
+        function sum(num1, num2){
+            return  num1 + num2;
+        }
+
+        console.log(sum(10,10));
+
+        var anotherSum = sum;
+        console.log(anotherSum(10,10));
+
+        sum = null;
+        console.log(anotherSum(10,10));
+        */
+
+        //FunctionAsAnArgumentExample01.htm
+        function callSomeFunction(someFunction, someArugment){
+            return  someFunction(someArugment);
+        }
+
+        function add10(num) {
+            return num + 10;
+        }
+
+        var reuslt = callSomeFunction(add10, 10);
+        alert(reuslt);
+
+        function getGreeting(name) {
+            return "Hello, " + name;
+        }
+        var result2 = callSomeFunction(getGreeting, "Nicholas");
+        alert(result2);
 
     </script>
 </body>
