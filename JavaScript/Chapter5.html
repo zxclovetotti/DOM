@@ -202,8 +202,9 @@
         */
 
         //RegExpr
-        var pattern1 = /[bc]at/i;
-        var pattern2 = new RegExp("[bc]at", "i");
+        /*
+        var pattern1 = /\[bc\]at/i;
+        var pattern2 = new RegExp("\\[bc\\]at", "i");
 
         var re =null,
             i;
@@ -216,6 +217,28 @@
             re = new RegExp("cat", "g");
             console.log(re.test("catastrophe"));
         }
+        console.log(pattern1.global);
+        console.log(pattern1.ignoreCase);
+        console.log(pattern1.multiline);
+        console.log(pattern1.lastIndex);
+        console.log(pattern1.source);
+
+        console.log(pattern2.global);
+        console.log(pattern2.ignoreCase);
+        console.log(pattern2.multiline);
+        console.log(pattern2.lastIndex);
+        console.log(pattern2.source);
+        */
+
+        var text = "mom and dad and baby";
+        var pattern = new RegExp("mom( and dad( and baby)?)?","gi");
+
+        var matches = pattern.exec(text);
+        console.log(matches.index);
+        console.log(matches.input);
+        console.log(matches[0]);
+        console.log(matches[1]);
+        console.log(matches[2]);
 
     </script>
 </body>
