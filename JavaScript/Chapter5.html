@@ -315,6 +315,7 @@
         */
 
         //FunctionAsAnArgumentExample01.htm
+        /*
         function callSomeFunction(someFunction, someArugment){
             return  someFunction(someArugment);
         }
@@ -331,6 +332,18 @@
         }
         var result2 = callSomeFunction(getGreeting, "Nicholas");
         alert(result2);
+        */
+
+        function factorial(num){
+            if (num <= 1){
+                return num;
+            } else{
+                return num * arguments.callee(num - 1);
+            }
+        }
+        var trueFactorial = factorial;
+
+        console.log(trueFactorial(5));
 
     </script>
 </body>
