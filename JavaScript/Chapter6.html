@@ -32,6 +32,7 @@
         person.sayName();
         */
         //DataPropertiesExample01
+        /*
         var person = {};
         Object.defineProperty(person, "name", {
             configurable: false,
@@ -39,10 +40,10 @@
             value: "Nicholas"
         });
         alert(person.name);
-        person.name = "Greg"; // can't be changeed
+        person.name = "Greg"; // can't be changed
         delete person.name; // can't be deleted
         alert(person.name);
-
+        */
         /*
         // So although you can call Object.defineProperty() multiple times for the same property,
         // there are limits once configurable has been set to false.
@@ -55,6 +56,32 @@
             value: "Greg"
         });
         */
+
+        //AccessorPropertiesExample01
+
+        var book = {
+            _year: 2004,
+            edition:1
+        };
+
+        Object.defineProperty(book, "_year", {
+            get: function() {
+                return  this._year;
+            },
+
+            set: function(newValue) {
+                if (newValue > 2004) {
+                    this._year = newValue;
+                    //console.log(newValue);
+                    this.edition = this.edition + newValue - 2004;
+                    //console.log(this.edition);
+                }
+            }
+        });
+
+        book.year = 2005;
+        alert(book.year); // 2005
+        alert(book.edition); // 2
     </script>
 </body>
 </html>
