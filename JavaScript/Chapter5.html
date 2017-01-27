@@ -420,6 +420,15 @@
         var values = [1, 2, 3, 4, 5, 6, 7, 8];
         var max = Math.max.apply(Math, values);
         alert(max);
+
+        function selectFrom(lowerValue, upperValue){
+            var choices = upperValue - lowerValue + 1;
+            return Math.floor(Math.random() * choices + lowerValue);
+        }
+
+        var colors = ["red", "green", "blue", "yellow", "black", "purple", "brown"];
+        var color = colors[selectFrom(0, colors.length - 1)];
+        alert(color);
     </script>
 </body>
 </html>
