@@ -376,6 +376,7 @@
         outer();
         */
 
+        /*
         function sum(num1, num2){
             return num1 + num2;
         }
@@ -396,7 +397,29 @@
         var falseValue = false;
         result = falseValue && true;
         alert(result);
+        */
 
+        var stringValue = "Lorem ipsum dolor sit amet, consectetur adipisicing elit";
+        var positions = new Array();
+        var pos = stringValue.indexOf("e");
+
+        while (pos > -1){
+            positions.push(pos);
+            pos = stringValue.indexOf("e", pos + 1);
+        }
+        console.log(positions);
+
+        var text = "cat, bat, sat, fat";
+        var result = text.replace("at", "ond");
+        alert(result);
+        result = text.replace(/at/g, "ond");
+        alert(result);
+        result = text.replace(/(.at)/g, "word ($1)");
+        alert(result);
+
+        var values = [1, 2, 3, 4, 5, 6, 7, 8];
+        var max = Math.max.apply(Math, values);
+        alert(max);
     </script>
 </body>
 </html>
