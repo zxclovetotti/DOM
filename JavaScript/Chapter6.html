@@ -64,19 +64,15 @@
             edition:1
         };
 
-        Object.defineProperty(book, "_year", {
-            get: function() {
-                return  this._year;
-            },
+        Object.defineProperty(book, "year", {
+            get: function(){
+            return this._year; },
 
-            set: function(newValue) {
+            set: function(newValue){
                 if (newValue > 2004) {
                     this._year = newValue;
-                    //console.log(newValue);
-                    this.edition = this.edition + newValue - 2004;
-                    //console.log(this.edition);
-                }
-            }
+                    this.edition += newValue - 2004;
+                } }
         });
 
         book.year = 2005;
