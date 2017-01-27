@@ -34,12 +34,27 @@
         //DataPropertiesExample01
         var person = {};
         Object.defineProperty(person, "name", {
+            configurable: false,
             writable: false,
             value: "Nicholas"
         });
         alert(person.name);
-        person.name = "Greg";
+        person.name = "Greg"; // can't be changeed
+        delete person.name; // can't be deleted
         alert(person.name);
+
+        /*
+        // So although you can call Object.defineProperty() multiple times for the same property,
+        // there are limits once configurable has been set to false.
+
+        // Uncaught TypeError: Cannot redefine property: name
+        // at Function.defineProperty (<anonymous>)
+
+        Object.defineProperty(person, "name", {
+            configurable: true,
+            value: "Greg"
+        });
+        */
     </script>
 </body>
 </html>
