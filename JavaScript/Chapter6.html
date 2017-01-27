@@ -79,6 +79,7 @@
         alert(book.year); // 2005
         alert(book.edition); // 2
         */
+        /*
         var book = {};
         Object.defineProperties(book, {
             _year: {
@@ -103,10 +104,54 @@
                 }
             }
         });
+
+        var descriptor = Object.getOwnPropertyDescriptor(book, "_year");
+        console.log(descriptor.value); //2004
+        console.log(descriptor.configurable); // false
+        console.log(typeof descriptor.get); // undefined
+
+        descriptor = Object.getOwnPropertyDescriptor(book, "year");
+        console.log(descriptor.value); //undeified
+        console.log(descriptor.enumerable); // false
+        console.log(typeof descriptor.get); // function
+
         book.year = 2005;
         alert(book.year); // 2005
         alert(book.edition); // 2
+        */
 
+
+        //FactoryPatternExample01
+        /*
+        function createPerson(name, age, job){
+            var o = new Object();
+            o.name = name;
+            o.age = age;
+            o.job = job;
+            o.sayName = function () {
+                 alert(this.name);
+            };
+            return o;
+        }
+
+        var person1 = createPerson("Nicholas", "29", "Software Engineer");
+        var person2 = createPerson("Greg", "27", "Doctor");
+        */
+
+        //ConstructorPatternExample01
+        function Person(name, age, job) {
+            this.name = name;
+            this.age = age;
+            this.job = job;
+            this.sayName = function () {
+                alert(this.name);
+            }
+        }
+        var person1 = new Person("Nicholas", 29, "Software Engineer");
+        var person2 = new Person("Greg", 27, "Doctor");
+
+        alert(person1.constructor == Person);
+        alert(person2.constructor == Person);
     </script>
 </body>
 </html>
