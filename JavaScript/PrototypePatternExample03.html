@@ -10,6 +10,7 @@
             return !(object.hasOwnProperty(name)) && (name in object);
         }
 
+        /*
         function Person(){
             Person.prototype.name = "Nicholas";
             Person.prototype.age = 29;
@@ -18,6 +19,18 @@
                 return this.name;
             }
         }
+        */
+        //Alternative way to declare prototype property of a Constructor
+        function Person(){};
+
+        Person.prototype = {
+            name: "Nicholas",
+            age: 29,
+            job: "Software Engineer",
+            sayName: function () {
+                return this.name;
+            }
+        };
 
         var person1 = new Person();
         var person2 = new Person();
@@ -33,6 +46,13 @@
 
         delete person1.name;
         console.log(person1.name + " is its own name: " + !hasPrototypeProperty(person1, "name"));
+
+
+        //ObjectKeysExample01
+        var keys = Object.keys(Person.prototype);
+        console.log(keys);
+
+
     </script>
 </body>
 </html>
