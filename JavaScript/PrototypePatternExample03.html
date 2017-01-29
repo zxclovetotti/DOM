@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PrototypePatternExample03</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function Person(){
+            Person.prototype.name = "Nicholas";
+            Person.prototype.age = 29;
+            Person.prototype.job = "Software Engineer";
+            Person.prototype.sayName = function () {
+                return this.name;
+            }
+        }
+
+        var person1 = new Person();
+        var person2 = new Person();
+
+        person1.name = "Greg";
+
+        console.log(person1.name);
+        console.log(person2.name);
+
+        delete person1.name;
+        console.log(person1.name);
+    </script>
+</body>
+</html>
