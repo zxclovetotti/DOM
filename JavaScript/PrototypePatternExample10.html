@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PrototypePatternExample10</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function Person() {
+
+        }
+
+        var friend = new Person();
+
+        //Error occurs after rewrite prototype
+        /*
+        Person.prototype = {
+            name: "Nicholas",
+            age: 29,
+            job: "Software Engineer",
+            sayName: function () {
+                alert(this.name);
+            }
+        };
+        */
+
+        Person.prototype.name = "Nicholas";
+        Person.prototype.age = 29;
+        Person.prototype.job = "Software Engineer";
+        Person.prototype.sayName = function () {
+                alert(this.name);
+        };
+
+        friend.sayName();
+    </script>
+
+</body>
+</html>
