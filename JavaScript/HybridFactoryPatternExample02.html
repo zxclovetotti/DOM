@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HybridFactoryPatternExample</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function SpecialArray() {
+            //Create Arrary
+            var values = new Array();
+
+            //Assign value
+            values.push.apply(values, arguments);
+
+            //Added Method
+            values.toPipedString = function () {
+                return this.join("|");
+            }
+
+            return values;
+        }
+
+        var colors = new SpecialArray("red", "blue", "green");
+        alert(colors.toPipedString());
+    </script>
+</body>
+</html>
