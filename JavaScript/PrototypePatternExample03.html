@@ -8,9 +8,8 @@
     <script type="text/javascript">
         function hasPrototypeProperty(object, name) {
             return !(object.hasOwnProperty(name)) && (name in object);
-        }
+        };
 
-        /*
         function Person(){
             Person.prototype.name = "Nicholas";
             Person.prototype.age = 29;
@@ -18,9 +17,10 @@
             Person.prototype.sayName = function () {
                 return this.name;
             }
-        }
-        */
+        };
+
         //Alternative way to declare prototype property of a Constructor
+        /*
         function Person(){};
 
         Person.prototype = {
@@ -31,6 +31,7 @@
                 return this.name;
             }
         };
+        */
 
         var person1 = new Person();
         var person2 = new Person();
@@ -38,6 +39,7 @@
         //console.log(hasPrototypeProperty(person1, "name"));
 
         person1.name = "Greg";
+        person1.salary = 125000;
 
         //console.log(hasPrototypeProperty(person1, "name"));
 
@@ -47,11 +49,19 @@
         delete person1.name;
         console.log(person1.name + " is its own name: " + !hasPrototypeProperty(person1, "name"));
 
-
         //ObjectKeysExample01
-        var keys = Object.keys(Person.prototype);
-        console.log(keys);
+        var keysOfPrototype = Object.keys(Person.prototype);
+        var keysOfInstance = Object.keys(person1);
+        var keysOfAllProperties = Object.getOwnPropertyNames(Person.prototype);
+        // Cannot retrieve constructor in alternative way
+        console.log(keysOfPrototype);
+        console.log(keysOfInstance);
+        console.log(keysOfAllProperties);
 
+        /* example from textbook
+        var keys = Object.getOwnPropertyNames(Person.prototype);
+        alert(keys);   //”constructor,name,age,job,sayName”
+        */
 
     </script>
 </body>
