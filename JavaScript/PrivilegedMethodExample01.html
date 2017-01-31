@@ -16,12 +16,19 @@
             };
         }
 
-        var person = new Person("Nicholas");
-        alert(person.getName());
-        person.setName("Greg");
-        alert(person.getName());
+        var person1 = new Person("Leo");
+        alert(person1.getName());
 
-        alert(person.name);// Cannot be accessed without privileged method
+
+        var person2 = new Person("Nicholas");
+        alert(person2.getName());
+        person2.setName("Greg");
+        alert(person2.getName());
+
+        //instance private variables
+        alert(person1.getName());
+
+        //alert(person2.name);// Cannot be accessed without privileged method
     </script>
 </body>
 </html>

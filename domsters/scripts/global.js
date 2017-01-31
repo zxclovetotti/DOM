@@ -397,18 +397,14 @@ function resetFields(whichform){
 }
 
 function prepareForms() {
-    for (var i=0; i<document.forms.length; i++) {
+    for (var i = 0; i < document.forms.length; i++){
         var thisform = document.forms[i];
         resetFields(thisform);
-        thisform.onsubmit = function() {
-            if (!validateForm(this)) return false;
-            var article = document.getElementsByTagName('article')[0];
-            if (submitFormWithAjax(this, article)) return false;
-            return true;
+        thisform.onsubmit = function () {
+            return validateForm(this);
         }
     }
 }
-
 
 function isFilled(field){
     if (field.value.replace(' ','').length == 0) return false;

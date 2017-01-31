@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PrivilegedMethodExample02</title>
+</head>
+<body>
+    <script type="text/javascript">
+        (function () {
+            //Private variables and functions
+            var name = "";
+
+            //Constructor
+            Person = function (value) {
+                name = value;
+            }
+            //public and privileged function
+            Person.prototype.getName = function () {
+                return name;
+            }
+
+            Person.prototype.setName = function (value) {
+                name = value;
+            }
+
+        })();
+
+        var person1 = new Person("Nicholas");
+        alert(person1.getName());
+        person1.setName("Greg");
+        alert(person1.getName());
+
+        var person2 = new Person("Michael");
+        alert(person1.getName());
+        alert(person2.getName());
+
+        /*
+         Since the privileged method is defined on the prototype,
+         all instances use that same function.
+
+         The privileged method, being a closure,
+         always holds a reference to the containing scope.
+         */
+    </script>
+</body>
+</html>
