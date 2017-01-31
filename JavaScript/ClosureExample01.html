@@ -10,9 +10,11 @@
         var result = new Array();
 
         for (var i = 0; i < 10; i++){
-            result[i] = function () {
-                return i;
-            }
+            result[i] = function (num) {
+                return function () {
+                    return  num;
+                };
+            } (i);// The variable i is passed in as an argument to the anonymous function.
         }
 
         return result;
