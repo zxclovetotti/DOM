@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Closures</title>
+</head>
+<body>
+    <script type="text/javascript">
+    function createFunction() {
+        var result = new Array();
+
+        for (var i = 0; i < 10; i++){
+            result[i] = function () {
+                return i;
+            }
+        }
+
+        return result;
+    }
+
+    console.log(createFunction());
+    </script>
+</body>
+</html>
