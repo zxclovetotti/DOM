@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PrivateVariable</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function add(num1, num2) {
+            return num1 + num2;
+        }
+
+
+        function MyObject() {
+
+            //Private Variable and Method
+            var privateVariable = 10;
+
+            function privateFunction() {
+                alert("Execute Private Function!");//
+                return false;
+            }
+
+            //Privileged method
+            this.publicMethod = function () {
+                privateVariable++;
+                return privateFunction();
+            }
+        }
+        var person = new MyObject();
+        console.log(person.publicMethod());
+
+        console.log(add(5,2));
+    </script>
+</body>
+</html>

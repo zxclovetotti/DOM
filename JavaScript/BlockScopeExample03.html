@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlockScopeExample03</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function outputNumbers(count) {
+            (function () {
+                    for (var i = 0; i < count; i++) {
+                        console.log(i);
+                    }
+                })();
+        }
+
+        //alert(i);
+
+        outputNumbers(10);
+
+    </script>
+</body>
+</html>
