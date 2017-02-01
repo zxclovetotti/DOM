@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8986ce68-b9dc-48e8-bcda-7f43f3a39425" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/ch8/Chapter8.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/Chapter7-2_Closure.html" afterPath="$PROJECT_DIR$/JavaScript/ch7/Chapter7-2_Closure.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/Chapter7-4 PrivateVariable.html" afterPath="$PROJECT_DIR$/JavaScript/ch7/Chapter7-4 PrivateVariable.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/PrivilegedMethodExample01.html" afterPath="$PROJECT_DIR$/JavaScript/ch7/PrivilegedMethodExample01.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaScript/PrivilegedMethodExample02.html" afterPath="$PROJECT_DIR$/JavaScript/ch7/PrivilegedMethodExample02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Chapter9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/Client.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DOM.iws" />
@@ -30,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chapter8.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/ch8/Chapter8.html">
+      <file leaf-file-name="Chapter9.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/Chapter9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -45,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,9 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/js/prepareSlideshow.js" />
-        <option value="$PROJECT_DIR$/src/list.html" />
-        <option value="$PROJECT_DIR$/src/grayscale.html" />
         <option value="$PROJECT_DIR$/src/js/player.js" />
         <option value="$PROJECT_DIR$/src/player.html" />
         <option value="$PROJECT_DIR$/src/css/player.css" />
@@ -117,6 +111,9 @@
         <option value="$PROJECT_DIR$/JavaScript/PrivilegedMethodExample01.html" />
         <option value="$PROJECT_DIR$/JavaScript/PrivilegedMethodExample02.html" />
         <option value="$PROJECT_DIR$/JavaScript/ch8/Chapter8.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ch8/Chapter9.html" />
+        <option value="$PROJECT_DIR$/JavaScript/Client.js" />
+        <option value="$PROJECT_DIR$/JavaScript/Chapter9.html" />
       </list>
     </option>
   </component>
@@ -217,42 +214,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaScript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DOM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="domsters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -273,11 +234,6 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/JavaScript/ch7" />
-      <recent name="$PROJECT_DIR$/JavaScript" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/domsters" />
       <recent name="$PROJECT_DIR$/domster/scripts" />
@@ -285,11 +241,13 @@
       <recent name="$PROJECT_DIR$/Demo/images" />
       <recent name="$PROJECT_DIR$/src/css" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaScript" />
+      <recent name="$PROJECT_DIR$/JavaScript/ch7" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Chapter8.html">
-    <configuration default="false" name="BlockScopeExample03.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/BlockScopeExample03.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.Chapter9.html">
     <configuration default="false" name="Chapter7-4 PrivateVariable.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch7/Chapter7-4 PrivateVariable.html">
       <method />
     </configuration>
@@ -300,6 +258,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Chapter8.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch8/Chapter8.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Chapter9.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/Chapter9.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -366,19 +327,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Chapter5.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.BlockScopeExample03.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Chapter7-4 PrivateVariable.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample01.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample02.html" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Chapter7-4 PrivateVariable.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample01.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample02.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.Chapter9.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample02.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample01.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Chapter7-4 PrivateVariable.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.BlockScopeExample03.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Chapter9.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample02.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample01.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Chapter7-4 PrivateVariable.html" />
       </list>
     </recent_temporary>
   </component>
@@ -441,14 +402,7 @@
       <workItem from="1485767922103" duration="2063000" />
       <workItem from="1485838875743" duration="3755000" />
       <workItem from="1485849687060" duration="6692000" />
-      <workItem from="1485930287850" duration="1279000" />
-    </task>
-    <task id="LOCAL-00055" summary="added examples">
-      <created>1484231277066</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1484231277069</updated>
+      <workItem from="1485930287850" duration="2690000" />
     </task>
     <task id="LOCAL-00056" summary="added examples">
       <created>1484233359777</created>
@@ -786,11 +740,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485860128032</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="added examples">
+      <created>1485931837916</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1485931837916</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161740000" />
+    <option name="totallyTimeSpent" value="163151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="6" />
@@ -798,7 +759,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3248503" sideWeight="0.48828125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3233533" sideWeight="0.49140626" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3233533" sideWeight="0.50859374" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3233533" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3213752" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -811,8 +774,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3233533" sideWeight="0.51171875" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -906,20 +867,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/css/player.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/player.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1007,13 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domsters/photos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1208,6 +1148,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,6 +1156,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="41" column="58" lean-forward="false" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,6 +1164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,6 +1172,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domsters/photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/Client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/Chapter9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="65" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
           <folding />
         </state>
       </provider>
