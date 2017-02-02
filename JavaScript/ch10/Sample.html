@@ -9,26 +9,26 @@
     <p>Here is an example for DOM</p>
     <script type="text/javascript">
         var para = document.getElementsByTagName("p");
-        if (para[1].nodeType == 1){
+        if (para.length && para[0].nodeType == 1){
             // Node.ELEMENT_NODE = 1
-
-            alert("<" + para[0].nodeName + ">" +" is an elment node.");
-        }
-
-        if (para[1].parentNode){
-            alert(para[1].parentNode.nodeName);
-        }
-
-
-        if (para[1].parentNode){
-            alert((para[1].childNodes[0].data));
+            console.log("<" + para[0].nodeName + ">" +" is an elment node.");
         }
 
         var newPara = document.createElement("p");
         var text = document.createTextNode("paraText");
         text.nodeValue = "The last paragraph is insert by DOM!";
         newPara.appendChild(text);
-        para[1].parentNode.appendChild(newPara);
+        para[para.length - 1].parentNode.appendChild(newPara);
+
+        para = document.getElementsByTagName("p");
+
+        if (para.length){
+          for (var i = 0; i < para.length; i++){
+              if (para[i].hasChildNodes()){
+                  console.log(para[i].firstChild.nodeValue);
+              }
+          }
+        }
     </script>
 </body>
 </html>
