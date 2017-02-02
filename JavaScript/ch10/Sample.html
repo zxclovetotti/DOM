@@ -7,6 +7,11 @@
 <body>
     <p>Hello World!</p>
     <p>Here is an example for DOM</p>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
     <script type="text/javascript">
         var para = document.getElementsByTagName("p");
         if (para.length && para[0].nodeType == 1){
@@ -18,7 +23,8 @@
         var text = document.createTextNode("paraText");
         text.nodeValue = "The last paragraph is insert by DOM!";
         newPara.appendChild(text);
-        para[para.length - 1].parentNode.appendChild(newPara);
+        //para[para.length - 1].parentNode.appendChild(newPara);
+        para[0].parentNode.insertBefore(newPara,para[para.length -1]);
 
         para = document.getElementsByTagName("p");
 
@@ -29,6 +35,18 @@
               }
           }
         }
+
+        var unOrderList = document.getElementsByTagName("ul")[0];
+        var deepList = unOrderList.cloneNode(true);
+        console.log(deepList.childNodes.length);  //7
+
+        var shadowList = unOrderList.cloneNode(false);
+        console.log(shadowList.childNodes.length); //0
+
+        document.getElementsByTagName("body")[0].appendChild(deepList);
+
+
+        //para[0].parentNode.removeChild(para[0].parentNode.lastChild);
     </script>
 </body>
 </html>
