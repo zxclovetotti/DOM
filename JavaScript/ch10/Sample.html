@@ -7,7 +7,7 @@
 <body>
     <p>Hello World!</p>
     <p>Here is an example for DOM</p>
-    <ul>
+    <ul id="list">
         <li>item1</li>
         <li>item2</li>
         <li>item3</li>
@@ -80,8 +80,17 @@
         console.log(div.title);
         //console.log(document.documentElement.tagName);
 
+        var list = document.getElementById("list");
+        var listItem = list.getElementsByTagName("li");
+        console.log("Here is the item of unOrderList:")
+        for (var index = 0 ; index < listItem.length; index++){
 
+            if (listItem[index].firstChild.nodeType == 3){
+                console.log(listItem[index].firstChild.nodeValue);
+                //console.log("\n");
+            }
 
+        };
 
     </script>
 </body>
