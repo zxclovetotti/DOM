@@ -12,6 +12,9 @@
         <li>item2</li>
         <li>item3</li>
     </ul>
+    <div id="myDiv" class="nd" title="Body text" lang="en" dir="ltr">
+
+    </div>
     <script type="text/javascript">
         var para = document.getElementsByTagName("p");
         if (para.length && para[0].nodeType == 1){
@@ -47,6 +50,39 @@
 
         console.log(document.nodeType);
         //para[0].parentNode.removeChild(para[0].parentNode.lastChild);
+
+        var html = document.documentElement; //get reference to <html>
+
+        console.log(html === document.childNodes[0]); //true when <!DOCTYPE html> doesn't exist
+        console.log(html === document.firstChild); //true
+
+        console.log(document.doctype);
+        console.log(document.title);
+
+        document.title = "DOM sample and this title has been modified by DOM!";
+
+        console.log(document.url);
+        console.log(document.domain);
+        console.log(document.referrer);
+
+        document.write("<strong>"+ ((new Date()).toString()) + "</strong>");
+
+        var div = document.getElementById("myDiv");
+        console.log(div.tagName);
+        console.log(div.tagName == div.nodeName);
+
+        console.log(div.tagName.toLowerCase() === "div");
+        console.log(div.id)
+        console.log(div.getAttribute("id"));
+
+        console.log(div.getAttribute("title"));
+        div.setAttribute("title","new title");
+        console.log(div.title);
+        //console.log(document.documentElement.tagName);
+
+
+
+
     </script>
 </body>
 </html>
