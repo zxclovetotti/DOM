@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8986ce68-b9dc-48e8-bcda-7f43f3a39425" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/ch11/SelectorsAPIExample01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/ch10/TextNodeExample01.html" afterPath="$PROJECT_DIR$/JavaScript/ch10/TextNodeExample01.html" />
     </list>
     <ignored path="DOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TextNodeExample01.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SelectorsAPIExample01.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ch11/SelectorsAPIExample01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextNodeExample01.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/ch10/TextNodeExample01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            <state relative-caret-position="141">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -62,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/css/player.css" />
         <option value="$PROJECT_DIR$/domster/styles/color.js" />
         <option value="$PROJECT_DIR$/domster/styles/basic.css" />
         <option value="$PROJECT_DIR$/domster/styles/layout.css" />
@@ -113,6 +122,7 @@
         <option value="$PROJECT_DIR$/JavaScript/Chapter9.html" />
         <option value="$PROJECT_DIR$/JavaScript/ch10/Sample.html" />
         <option value="$PROJECT_DIR$/JavaScript/ch10/TextNodeExample01.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ch11/SelectorsAPIExample01.html" />
       </list>
     </option>
   </component>
@@ -180,6 +190,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DOM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,10 +310,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.TextNodeExample01.html">
-    <configuration default="false" name="PrivilegedMethodExample02.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch7/PrivilegedMethodExample02.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.SelectorsAPIExample01.html">
     <configuration default="false" name="Chapter8.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch8/Chapter8.html">
       <method />
     </configuration>
@@ -296,6 +321,9 @@
       <method />
     </configuration>
     <configuration default="false" name="TextNodeExample01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch10/TextNodeExample01.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="SelectorsAPIExample01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch11/SelectorsAPIExample01.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -362,19 +390,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Chapter5.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample02.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Chapter9.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Sample.html" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.TextNodeExample01.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Chapter9.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Sample.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.TextNodeExample01.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.SelectorsAPIExample01.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.TextNodeExample01.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Sample.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Chapter9.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.PrivilegedMethodExample02.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.SelectorsAPIExample01.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.TextNodeExample01.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Sample.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Chapter9.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Chapter8.html" />
       </list>
     </recent_temporary>
   </component>
@@ -441,14 +469,7 @@
       <workItem from="1485946625799" duration="65000" />
       <workItem from="1485946721399" duration="3069000" />
       <workItem from="1486009008623" duration="12684000" />
-      <workItem from="1486186950903" duration="2596000" />
-    </task>
-    <task id="LOCAL-00064" summary="added examples">
-      <created>1484659339919</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1484659339919</updated>
+      <workItem from="1486186950903" duration="5001000" />
     </task>
     <task id="LOCAL-00065" summary="add examples&#10;">
       <created>1484660906859</created>
@@ -786,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486188925675</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="added examples">
+      <created>1486190342650</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1486190342651</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181587000" />
+    <option name="totallyTimeSpent" value="183992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
@@ -906,7 +934,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domster/scripts/highlightPage.js" />
     <entry file="file://$PROJECT_DIR$/domsters/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -956,13 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="16" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domsters/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1237,10 +1257,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/domsters/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ch10/TextNodeExample01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="58" column="28" lean-forward="false" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        <state relative-caret-position="141">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ch11/SelectorsAPIExample01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="53" lean-forward="false" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding />
         </state>
       </provider>
