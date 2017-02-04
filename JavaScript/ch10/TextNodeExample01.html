@@ -5,8 +5,11 @@
     <title>TextNodeExample</title>
 </head>
 <body>
-    <p>Hello World!</p>
-    <p>Here is an example for DOM</p>
+    <div id="myDiv"><!--A comment -->
+        <p>Hello World!</p>
+        <p>Here is an example for DOM</p>
+        <ul id="myList"></ul>
+    </div>
     <script type="text/javascript">
         var divElement = document.createElement("div");
         divElement.className = "message";
@@ -32,6 +35,29 @@
         console.log(divElement.firstChild.nodeValue);
         console.log(newNode.nodeValue);
         console.log(divElement.childNodes.length); //2
+
+        var div = document.getElementById("myDiv");
+        var comment = div.firstChild;
+        console.log(comment.data);
+
+        console.log(document.doctype.name);
+
+        //DocumentFragmentExample01
+        var fragment = document.createDocumentFragment();
+        var ul = document.getElementById("myList");
+        var li = null;
+
+        for (var i = 0; i < 3; i++){
+            li = document.createElement("li");
+            li.appendChild(document.createTextNode("Item " + (i + 1)));
+            fragment.appendChild(li);
+        }
+        ul.appendChild(fragment);
+
+        //AttrExample01.htm
+        var attr = document.createAttribute("align");
+        attr.value = "center";
+        ul.setAttributeNode(attr);
     </script>
 </body>
 </html>
