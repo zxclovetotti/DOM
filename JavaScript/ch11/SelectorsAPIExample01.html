@@ -9,14 +9,45 @@
     <div id="myDiv"><!--A comment -->
         <p class="para">Hello World!</p>
         <p class="para">Here is an example for DOM</p>
+        <p class="para">Here is another example for DOM</p>
+        <p class="para">Here is part1</p>
+        <p class="para">Here is part2</p>
+        <p class="para">Here is part3</p>
         <ul id="myList"></ul>
+    </div>
+    <div id="latestContent">
+
     </div>
     <script type="text/javascript">
         var div = document.querySelector("#myDiv");
         console.log(document.querySelector("#myDiv").firstChild.nodeValue);
 
         var para = document.querySelectorAll(".para");
+        for (var i = 0; i < para.length; i++){
+            if (para[i].nodeType == 1){
+                para[i].classList.add("sample");
+            }
+            //para[i].classList.add("sample");
+        }
+
+
         console.log(para.item(1).firstChild.nodeValue);
+
+        console.log(div.firstElementChild.firstChild.nodeValue);
+
+        var child = div.firstElementChild;
+        while  (child != div.lastElementChild){
+            if (child.nodeType == 1){
+                if (child.firstChild.nodeType == 3){
+                    console.log(child.firstChild.nodeValue);
+                }
+            }
+            child = child.nextElementSibling;
+        }
+
+        var latest = document.querySelector("#latestContent");
+        latest.innerHTML = "<em>This div is created by innerHTML</em>";
+
     </script>
 </body>
 </html>
