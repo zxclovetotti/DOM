@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TextNodeExample</title>
+</head>
+<body>
+    <p>Hello World!</p>
+    <p>Here is an example for DOM</p>
+    <script type="text/javascript">
+        var divElement = document.createElement("div");
+        divElement.className = "message";
+        var textNode = document.createTextNode("Hello World!");
+        divElement.appendChild(textNode);
+
+        var anotherTextNode = document.createTextNode(" Yippee!");
+        divElement.appendChild(anotherTextNode);
+
+        document.body.appendChild(divElement);
+
+        var text = document.getElementsByClassName("message")[0];
+        console.log(text.firstChild.nodeValue);
+
+        console.log(divElement.childNodes.length);  //2
+
+        divElement.normalize();
+
+        console.log(divElement.childNodes.length); //1
+        console.log(text.firstChild.nodeValue);
+
+        var newNode = divElement.firstChild.splitText(5);
+        console.log(divElement.firstChild.nodeValue);
+        console.log(newNode.nodeValue);
+        console.log(divElement.childNodes.length); //2
+    </script>
+</body>
+</html>
