@@ -5,6 +5,22 @@
     <title>DOM2_3_Demo</title>
 </head>
 <body>
+    <div id="myDiv">
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+        </ul>
+    </div>
+    <div id="myDiv2">
+        <ul>
+            <li id="item5">Item5</li>
+            <li>Item6</li>
+            <li>Item7</li>
+            <li>Item8</li>
+        </ul>
+    </div>
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" style="width: 100%; height:100%">
         <rect x="0" y="0" width="10" height="10" style="fill: red"/>
     </svg>
@@ -30,6 +46,45 @@
         console.log(div1.isSameNode(div1)); // true
         console.log(div1.isEqualNode(div2)); // true
         console.log(div1.isSameNode(div2)); // false
+
+
+        var myDiv = document.getElementById("myDiv");
+        myDiv.style.backgroundColor ="red";
+        myDiv.style.width = "100px";
+        myDiv.style.height = "200px";
+
+        myDiv.style.border = "1px solid black";
+
+        window.setInterval(function () {
+            myDiv.style.cssText = "width:200px; height:100px; background-color:green";
+        },5000);
+
+        var len = myDiv.style.length;
+        for (var i = 0; i < len; i++){
+            var prop = myDiv.style.item(i);
+            var value = myDiv.style.getPropertyValue(prop);
+            console.log(prop + " : " + value);
+        }
+
+        //Doesn't take effect in javascript but it can work at console
+        //var sheet = document.styleSheets[0];
+        //sheet.insertRule("body { background-color: silver}", 0);
+        //sheet.insertRule("#blanc { color: white }", 0);
+
+        function getElementLeft(element) {
+            var actualLeft = element.offsetLeft;
+            var current = element.offsetParent;
+
+            while (current != null){
+                actualLeft += current.offsetLeft;
+                current = current.offsetParent;
+            }
+
+            return actualLeft;
+        }
+
+        console.log(getElementLeft(document.getElementById("item5")));
+
     </script>
 </body>
 </html>
