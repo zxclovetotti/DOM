@@ -7,7 +7,7 @@
 <body>
     <div id="myDiv">
         <ul>
-            <li>Item1</li>
+            <li id="item1">Item1</li>
             <li>Item2</li>
             <li>Item3</li>
             <li>Item4</li>
@@ -82,8 +82,37 @@
 
             return actualLeft;
         }
+        var item1 = document.getElementById("item1");
+        var item5 = document.getElementById("item5");
+        console.log(getElementLeft(myDiv));
+        console.log(getElementLeft(item1));
+        console.log(getElementLeft(item5));
 
-        console.log(getElementLeft(document.getElementById("item5")));
+        function getViewport() {
+            if (document.compatMode == "BackCompat"){
+                return {
+                    width: document.body.clientWidth,
+                    height: document.body.clientHeight
+                };
+            } else {
+                return {
+                    width: document.documentElement.clientWidth,
+                    height: document.documentElement.clientHeight
+                };
+            }
+        };
+
+        var size = getViewport();
+        console.log("Window's height is " + size.height + " and Window's width is " + size.width );
+        console.log(document.documentElement.scrollWidth);
+        console.log(document.documentElement.scrollHeight);
+        console.log(document.documentElement.clientWidth);
+        console.log(document.documentElement.clientHeight)
+
+        var myDiv2Dimension = myDiv2.getBoundingClientRect();
+        //console.log(getElementLeft(myDiv2Dimension));
+        console.log(myDiv2Dimension.left + " " + myDiv2Dimension.right + " "
+            + myDiv2Dimension.top + " " + myDiv2Dimension.bottom );
 
     </script>
 </body>
