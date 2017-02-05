@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM2_3_Demo</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" style="width: 100%; height:100%">
+        <rect x="0" y="0" width="10" height="10" style="fill: red"/>
+    </svg>
+    <script type="text/javascript">
+        console.log(document.implementation.hasFeature("Core", "2.0"));
+        console.log(document.implementation.hasFeature("Core", "3.0"));
+        console.log(document.implementation.hasFeature("HTML", "2.0"));
+        console.log(document.implementation.hasFeature("Views", "2.0"));
+        console.log(document.implementation.hasFeature("XML", "2.0"));
+        console.log("Using default SVG namespace: " + document.body.isDefaultNamespace("http://www.w3.org/2000/svg"));
+
+        var svg = document.createElementNS("http://www.w3.org/2000/svg","svg");
+
+        //console.log(document.doctype.publicId);
+        //console.log(document.doctype.systemId);
+
+        var div1 = document.createElement("div");
+        div1.setAttribute("class","box");
+
+        var div2 = document.createElement("div");
+        div2.setAttribute("class","box");
+
+        console.log(div1.isSameNode(div1)); // true
+        console.log(div1.isEqualNode(div2)); // true
+        console.log(div1.isSameNode(div2)); // false
+    </script>
+</body>
+</html>
