@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Level0 Event Handler Demo</title>
+</head>
+<body>
+    <p>Here is a sample for click event</p>
+    <div>
+        <input type="button" id="myBtn" value="Click Me"/>
+    </div>
+    <script type="text/javascript">
+        var btn = document.getElementById("myBtn");
+        btn.onclick = function () {
+            alert(this.id); // "myBtn"
+        }
+    </script>
+</body>
+</html>

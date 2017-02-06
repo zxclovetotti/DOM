@@ -7,7 +7,7 @@
 <body>
     <p>Here is a sample for click event</p>
     <div>
-        <input type="button" value="Click Me" onclick="showMessage();alert(event.type)"/>
+        <input type="button" value="Click Me" onclick="try{showMessage();} catch(ex){};alert(value)"/>
     </div>
     <script type="text/javascript">
         function showMessage() {
