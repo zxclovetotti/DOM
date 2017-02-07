@@ -23,10 +23,20 @@
         */
 
         //DOM Level2
+        /*
         btn.addEventListener("click", function () {
             alert(this.id);
         }, false);
+        */
 
+        //Event Demo
+        btn.onclick = function (event) {
+            alert(event.type);
+        }
+        btn.addEventListener("click", function(event) {
+            alert(event.currentTarget === this); // true
+            alert(event.target === this); //true
+        }, false);
     </script>
 </body>
 </html>
