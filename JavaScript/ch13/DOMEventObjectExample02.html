@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Event Example</title>
+</head>
+<body>
+    <p>Here is a sample for click event</p>
+    <div>
+        <input type="button" id="myBtn" value="Click Me"/>
+    </div>
+    <script type="text/javascript">
+        var btn = document.getElementById("myBtn");
+
+        document.body.onclick = function (event) {
+            alert(event.currentTarget === document.body); // true
+            alert(this === document.body); //true
+            alert(event.target === document.getElementById("myBtn")); //true
+        };
+    </script>
+</body>
+</html>

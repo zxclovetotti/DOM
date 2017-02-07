@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8986ce68-b9dc-48e8-bcda-7f43f3a39425" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample02.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample03.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/ch13/DOMLevel0EventHandlerExample01.html" afterPath="$PROJECT_DIR$/JavaScript/ch13/DOMLevel0EventHandlerExample01.html" />
     </list>
     <ignored path="DOM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HTMLEventHandlerExample01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/ch13/HTMLEventHandlerExample01.html">
+      <file leaf-file-name="DOMEventObjectExample03.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample03.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DOMLevel0EventHandlerExample01.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/ch13/DOMLevel0EventHandlerExample01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="386">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domster/template.html" />
-        <option value="$PROJECT_DIR$/domster/scripts/global.js" />
         <option value="$PROJECT_DIR$/domster/index.html" />
         <option value="$PROJECT_DIR$/domsters/about.html" />
         <option value="$PROJECT_DIR$/domsters/photos.html" />
@@ -123,6 +112,8 @@
         <option value="$PROJECT_DIR$/JavaScript/ch12/ch13.html" />
         <option value="$PROJECT_DIR$/JavaScript/ch13/HTMLEventHandlerExample01.html" />
         <option value="$PROJECT_DIR$/JavaScript/ch13/DOMLevel0EventHandlerExample01.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample02.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample03.html" />
       </list>
     </option>
   </component>
@@ -346,20 +337,20 @@
       <recent name="$PROJECT_DIR$/src/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.DOMLevel0EventHandlerExample01.html">
-    <configuration default="false" name="DOM2_3_Sample.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch12/DOM2_3_Sample.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.DOMEventObjectExample03.html">
     <configuration default="false" name="NodeIteratorExample1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch12/NodeIteratorExample1.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="TreeWalkerExample1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch12/TreeWalkerExample1.html">
       <method />
     </configuration>
     <configuration default="false" name="HTMLEventHandlerExample01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch13/HTMLEventHandlerExample01.html">
       <method />
     </configuration>
     <configuration default="false" name="DOMLevel0EventHandlerExample01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch13/DOMLevel0EventHandlerExample01.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="DOMEventObjectExample02.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch13/DOMEventObjectExample02.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="DOMEventObjectExample03.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DOM/JavaScript/ch13/DOMEventObjectExample03.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -426,19 +417,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Chapter5.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DOM2_3_Sample.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.NodeIteratorExample1.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.TreeWalkerExample1.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.HTMLEventHandlerExample01.html" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.DOMLevel0EventHandlerExample01.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.NodeIteratorExample1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.HTMLEventHandlerExample01.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.DOMLevel0EventHandlerExample01.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DOMEventObjectExample02.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.DOMEventObjectExample03.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DOMLevel0EventHandlerExample01.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.HTMLEventHandlerExample01.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.NodeIteratorExample1.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.TreeWalkerExample1.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.DOM2_3_Sample.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.DOMEventObjectExample03.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.DOMEventObjectExample02.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.DOMLevel0EventHandlerExample01.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.HTMLEventHandlerExample01.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.NodeIteratorExample1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -508,14 +499,7 @@
       <workItem from="1486186950903" duration="9421000" />
       <workItem from="1486269937138" duration="10994000" />
       <workItem from="1486384558092" duration="1257000" />
-      <workItem from="1486477808538" duration="641000" />
-    </task>
-    <task id="LOCAL-00074" summary="added slideshow">
-      <created>1485408112701</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1485408112701</updated>
+      <workItem from="1486477808538" duration="2029000" />
     </task>
     <task id="LOCAL-00075" summary="add examples&#10;">
       <created>1485409295573</created>
@@ -853,11 +837,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486391313623</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="added examples">
+      <created>1486478578686</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1486478578688</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201304000" />
+    <option name="totallyTimeSpent" value="202692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="6" />
@@ -973,20 +964,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domsters/submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="24" column="81" lean-forward="false" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/stripeTables.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domsters/images/loading.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1251,6 +1228,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="10" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="13" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,6 +1258,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="112" column="55" lean-forward="true" selection-start-line="112" selection-start-column="55" selection-end-line="112" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#rect#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1308,8 +1290,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ch13/DOMLevel0EventHandlerExample01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="356">
+          <caret line="41" column="7" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="41" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
