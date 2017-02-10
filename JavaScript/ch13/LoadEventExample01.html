@@ -20,6 +20,10 @@
         document.body.onclick = function (event) {
             alert(event.eventPhase); //3
         }
+
+        this.addEventListener("load", function (event) {
+            alert("Loaded!");
+        })
     </script>
 
 </body>
