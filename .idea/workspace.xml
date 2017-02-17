@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8986ce68-b9dc-48e8-bcda-7f43f3a39425" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript/ch13/EventUtil.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/ch13/LoadEventExample01.html" afterPath="$PROJECT_DIR$/JavaScript/ch13/LoadEventExample01.html" />
     </list>
@@ -36,12 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadEventExample01.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoadEventExample01.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/ch13/LoadEventExample01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="283">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventUtil.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ch13/EventUtil.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +65,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -72,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domsters/about.html" />
-        <option value="$PROJECT_DIR$/domsters/photos.html" />
         <option value="$PROJECT_DIR$/domsters/styles/typography.css" />
         <option value="$PROJECT_DIR$/domsters/submit.html" />
         <option value="$PROJECT_DIR$/domsters/styles/layout.css" />
@@ -123,6 +134,8 @@
         <option value="$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample02.html" />
         <option value="$PROJECT_DIR$/JavaScript/ch13/DOMEventObjectExample03.html" />
         <option value="$PROJECT_DIR$/JavaScript/ch13/LoadEventExample01.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ch13/js.js" />
+        <option value="$PROJECT_DIR$/JavaScript/ch13/EventUtil.js" />
       </list>
     </option>
   </component>
@@ -511,14 +524,7 @@
       <workItem from="1486477808538" duration="2543000" />
       <workItem from="1486737943841" duration="1698000" />
       <workItem from="1487331276738" duration="434000" />
-      <workItem from="1487331810052" duration="1037000" />
-    </task>
-    <task id="LOCAL-00079" summary="add examples&#10;">
-      <created>1485429749636</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1485429749636</updated>
+      <workItem from="1487331810052" duration="1592000" />
     </task>
     <task id="LOCAL-00080" summary="added examples">
       <created>1485433603599</created>
@@ -856,11 +862,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487335703582</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="added examples">
+      <created>1487335974321</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1487335974321</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206375000" />
+    <option name="totallyTimeSpent" value="206930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
@@ -976,13 +989,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domsters/scripts/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="514" column="0" lean-forward="false" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domsters/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1015,6 +1021,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2515">
           <caret line="434" column="0" lean-forward="true" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,6 +1291,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="41" column="7" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="41" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,6 +1299,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,9 +1320,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ch13/LoadEventExample01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="283">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ch13/EventUtil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
