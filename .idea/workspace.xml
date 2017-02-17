@@ -39,8 +39,8 @@
       <file leaf-file-name="LoadEventExample01.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaScript/ch13/LoadEventExample01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="178">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -511,14 +511,7 @@
       <workItem from="1486477808538" duration="2543000" />
       <workItem from="1486737943841" duration="1698000" />
       <workItem from="1487331276738" duration="434000" />
-      <workItem from="1487331810052" duration="745000" />
-    </task>
-    <task id="LOCAL-00078" summary="added examples">
-      <created>1485429472472</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1485429472472</updated>
+      <workItem from="1487331810052" duration="1037000" />
     </task>
     <task id="LOCAL-00079" summary="add examples&#10;">
       <created>1485429749636</created>
@@ -856,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486739864408</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="added examples">
+      <created>1487335703580</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1487335703582</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206083000" />
+    <option name="totallyTimeSpent" value="206375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="6" />
@@ -1311,8 +1311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ch13/LoadEventExample01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="178">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
